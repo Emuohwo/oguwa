@@ -129,7 +129,7 @@
 
 
 @media screen and (max-width: 244px){
-    #home-hero {height: 50vh;}
+    #home-hero {min-height: 90vh;}
     h1 {font-size: 300%;}
     .project-desc {min-height: 270px;}
 }
