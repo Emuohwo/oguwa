@@ -1,0 +1,227 @@
+/* =============================================================================== */
+
+/* Media Queries */
+
+/* =============================================================================== */
+
+
+@media screen and (min-width: 1366px) {
+
+    html,
+    body {
+        font-size: 19px;
+    }
+
+    h1 {padding-top: 20%;}
+
+    /* === Home Hero */
+    #home-hero {
+        height: 100vh;
+    }
+}
+
+@media screen and (width: 1024px) {
+
+    html,
+    body {
+        font-size: 18px;
+    }
+
+    /* === Home Hero */
+    #home-hero {
+        height: 40vh;
+    }
+
+    .project-desc {
+        height: 250px;
+        padding-top: 3%;
+    }
+}
+
+@media screen and (width: 823px) {
+
+    /* === Home Hero */
+    #home-hero {
+        height: 110vh;
+    }
+
+    .service-container {
+        min-height: 600px;
+    }
+
+    .project-desc {
+        font-size: 60%;
+        height: 200px;
+        padding-top: 3%;
+    }
+}
+
+
+@media screen and (width: 812px) {
+
+    /* === Home Hero */
+    #home-hero {
+        height: 114vh;
+    }
+}
+
+
+@media screen and (width: 768px) {
+
+    /* === Home Hero */
+    #home-hero {
+        height: 50vh;
+    }
+
+    .project-desc {
+        height: 180px;
+    }
+}
+
+@media screen and (width: 736px) {
+
+    /* === Home Hero */
+    #home-hero {
+        height: 120vh;
+    }
+
+    .column_spacing {
+        margin: 2% auto;
+    }
+
+    .service-container {
+        min-height: 200px;
+    }
+
+    .project-desc {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    /*===== General setting==== */
+    h1 {
+        font-size: 2.5rem;
+        padding-top: 30%;
+    }
+
+    html,
+    body {
+        font-size: 14px;
+    }
+
+    section {
+        padding: 12% 0 4%;
+    }
+
+    .column_spacing {
+        margin: 3% auto;
+    }
+
+    /* === Home Hero */
+    #home-hero {
+        height: 60vh;
+    }
+
+    /* ===projects === */
+    .project-desc {
+        min-height: 100px;
+        padding-top: 1em;
+    }
+}
+
+
+
+@media screen and (width: 667px) {
+    .service-container {
+        min-height: 200px;
+    }
+
+    .project-desc {
+        height: 350px;
+        padding-top: 12%;
+    }
+}
+
+@media screen and (width: 640px) {
+
+    h1 {
+        padding-top: 3%;
+    }
+
+    .column_spacing {
+        margin: 5% auto;
+    }
+
+    /* === Home Hero */
+    #home-hero {
+        height: 85vh;
+    }
+
+    /* services */
+    .service-container {
+        text-align: center;
+        min-height: 200px;
+    }
+
+    /* project */
+    .project-container:hover .project-desc {
+        padding: 15%;
+    }
+}
+
+
+@media screen and (width: 568px) {
+
+    /* h1 {
+        padding-top: 10%;
+    } */
+
+    /* === Home Hero */
+    #home-hero {
+        height: 90vh;
+    }
+}
+
+
+@media screen and (width: 414px) {
+
+    /* === Home Hero */
+    #home-hero {
+        height: 40vh;
+    }
+
+    .project-desc {
+        height: 455px;
+    }
+}
+
+@media screen and (width: 375px) {
+
+    /* === Home Hero */
+    #home-hero {
+        height: 45vh;
+    }
+
+    .project-desc {
+        height: 417px;
+    }
+}
+
+@media screen and (width: 320px) {
+
+    h1 {
+        padding-top: 42%;
+    }
+
+    /* === Home Hero */
+    #home-hero {
+        max-height: 70vh;
+    }
+
+    /* project */
+    .project-desc {
+        height: 350px;
+    }
+}

@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css?family=Assistant|Merienda');
+/* 
+
+
+    font-family: 'Assistant', sans-serif;
+
+    font-family: 'Merienda', cursive;
+
+
+*/
+
+/* 
+
+Color 1  #0553a1e3; 0553a1e5    0553a1
+Color 2  #004080;
+
+*/
+
+/* 
+    PRELOADER
+ =================================== */
+div#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #fff url('./preloader.gif') no-repeat center center;
+}
+
+/* buttons */
+
+.btn-full {
+    background-color: brown;
+    border-color: brown;
+}
+
+/* *************************
+    Headings
+***************************/
+
+h2 {
+    color: brown;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+/***********************************
+    General
+****************************************/
+
+.cursive {
+    font-family: 'Merienda', cursive;
+    font-style: italic;
+    padding: 0 5%;
+    font-size: 80%;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+.centre-align {
+    text-align: center;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Assistant', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.padContainer {
+    padding: 0 7%;
+}
+
+section {
+    padding: 6% 0 4%;
+}
+
+/* Top Most Header */
+
+.topmost-header {
+    background-color: #ececf5;
+    position: relative
+}
+
+.social-media-ul {
+    position: absolute;
+    right: 4.3%;
+    top: 0;
+}
+
+.contact-ul,
+.social-media-ul {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-ul li,
+.social-media-ul li,
+.footer-social-media-ul li {
+    display: inline-block;
+    margin: 2px 4px 3px 0;
+    padding: 6px 33px 6px 0;
+}
+
+/* Navigation Bar */
+
+header {
+    background-color: #0553a1;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+/* header {
+    background-image: url(./home-hero3.jpg)
+} */
+
+.navbar-brand {
+    margin-left: -1rem !important;
+    padding-left: 0 !important;
+}
+
+#collapsibleNavbar {
+    position: absolute;
+    right: -1%;
+}
+
+@media screen and (max-width: 800px) {
+    #collapsibleNavbar {
+        position: relative;
+    }
+}
+
+/* ****************************************
+    Home
+*******************************************/
+
+#home-hero {
+    /* background: linear-gradient(rgba(148, 146, 146, 0.432), rgba(20, 20, 20, 0.849)), url(home-hero3.jpg) center  no-repeat fixed; */
+    background: -webkit-linear-gradient(45deg, #0553a159 60%, rgba(228, 233, 253, 0) 40%), url(home-hero3.jpg) center no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1 {
+    padding-top: 15%;
+    color: white;
+    font-size: 3.5rem;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+}
+
+/* ************************ */
+
+/* *************************************
+    VISION
+*********************************** */
+
+#vision {
+    background: linear-gradient(rgba(0, 0, 255, 0.39), rgba(0, 0, 0, 0.253)), url(home-hero2.jpg) no-repeat fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: justify;
+}
+
+/* ************************** */
+
+/* ************************************
+    SERVICES
+*************************************/
+
+#services {
+    background-color: #E4E9FD;
+    background-image: -webkit-linear-gradient(98deg, #0553a1e3 50%, #E4E9FD 50%);
+}
+
+.service-container {
+    background-color: #fff;
+    box-shadow: 0 1px 1px 0 #0553a1, 0 10px 20px 0 #0553a1;
+    border-radius: 2%;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+    min-height: 470px;
+    padding: 6% 0;
+}
+
+.service-container ul {
+    list-style: none;
+}
+
+/* **********************************
+    Project
+*************************************/
+
+#project {
+    background-color: #E4E9FD;
+}
+
+.project-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.project-desc {
+    display: none;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.671);
+    text-align: center;
+    padding-top: 4em;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 345px;
+}
+
+.project-container:hover .project-desc {
+    display: block;
+}
+
+/* *********************************** */
+
+/* *******************************************
+    Clients
+********************************************/
+
+/* .clients_ul li {
+    margin: 2px 0;
+} */
+
+.clients-list {
+    color: #004080;
+}
+
+.clients-countTo {
+    color: #0553a1e3;
+}
+
+.counter {
+    display: inline-block;
+    margin: 1.5%;
+    font-size: 200%;
+    /*background-color: #FF6F6F;
+    */border-radius: 50%;
+    vertical-align: middle;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* ********************************** */
+
+/* **********************************
+    CONTACT
+***************************************/
+
+#contact {
+    background-color: #004080;
+    color: #fff;
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+}
+
+.bottom-padding {
+    margin: -1% auto 5%;
+}
+
+/* ********************************** */
+
+/* **********************************
+    FOOTER
+***************************************/
+
+footer {
+    background-color: #0553a1;
+    color: #ececf5;
+    padding: 2% 0;
+}
+
+/* .footer-social-media-ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+} */
+
+.designer {
+    padding-top: 2%;
+}
+
+.designer a {
+    color: rgba(255, 255, 255, 0.836);
+}
+

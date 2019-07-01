@@ -1,0 +1,139 @@
+@media screen and (max-width: 1200px) {
+    section {
+        padding: 8% 0 4%;
+    }
+
+    .project-desc {
+        max-height: 300px;
+        padding: 40% auto;
+        font-size: 90%;
+        border-radius: 5px    ;
+        -webkit-border-radius: 5px    ;
+        -moz-border-radius: 5px    ;
+        -ms-border-radius: 5px    ;
+        -o-border-radius: 5px    ;
+    }
+}
+
+@media screen and (max-width: 1124px) {
+    .service-container {
+        min-height: 500px;
+    }
+
+    .project-desc {
+        max-height: 282px;
+    }
+}
+
+
+@media screen and (max-width: 988px) {
+
+    h1 {padding-top: 30%;}
+    .service-container{
+        min-height: 530px;
+    }
+
+    .project-desc {
+        font-size: 55%;
+        padding-top: 20%;
+        max-height: 250px;
+    }
+}
+
+
+@media screen and (max-width: 908px) {
+    .service-container {min-height: 570px;}
+    .project-desc{max-height: 220px}
+}
+
+
+@media screen and (max-width: 769px) {
+    .service-container{min-height: 650px;}
+    .project-desc{max-height: 180px;}
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+    h1 {padding-top: 18%;}
+
+    section {
+        padding: 15% 0 4%;
+    }
+    .column_spacing {
+        margin: 2% auto;
+    }
+    .service-container {min-height: 150px;}
+
+    .project-desc{
+        font-size: 100%;
+        min-height: 410px;
+    }
+}
+
+
+@media screen and (max-width: 683px) {
+
+    #home-hero {height: 85vh;}
+
+    html, body {font-size: 16px;}
+    .project-desc {min-height: 360px;}
+}
+
+
+@media screen and (max-width: 575px) {
+    .project-desc {min-height: 620px;}
+}
+
+@media screen and (max-width: 527px) {
+    .project-desc {min-height: 600px;}
+}
+
+@media screen and (max-width: 455px) {
+
+    h1 {padding-top: 30%;}
+
+    .project-desc {min-height: 500px;}
+}
+
+@media screen and (max-width: 413px) {
+    .project-desc {min-height: 450px;}
+}
+
+@media screen and (max-width: 326px) {
+    html, body{
+        font-size: 13px;
+    }
+
+    .oguwaLogo{width: 80px; height: auto;}
+    
+    h1{padding-top: 40%;}
+    #home-hero {height: 70vh;}
+    .project-desc{min-height: 360px;}
+}
+
+@media screen and (max-width: 304px) {
+    h1{padding-top: 20%;}
+    .project-desc {min-height: 300px;}
+}
+
+@media screen and (max-width: 264px) {
+    html,
+    body{font-size: 12px;}
+    section{padding: 50% auto 4%;}
+    #home-hero {height: 65vh;}
+
+    /* .project-desc {min-height: 450px;} */
+}
+
+
+@media screen and (max-width: 244px){
+    #home-hero {height: 50vh;}
+    h1 {font-size: 300%;}
+    .project-desc {min-height: 270px;}
+}
+
+@media screen and (max-width: 241px) {
+    #home-hero{height: 52vh;}
+}
