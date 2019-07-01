@@ -121,7 +121,7 @@
 
     /* === Home Hero */
     #home-hero {
-        height: 60vh;
+        min-height: 100vh;
     }
 
     /* ===projects === */
@@ -156,7 +156,7 @@
 
     /* === Home Hero */
     #home-hero {
-        height: 85vh;
+        min-height: 100vh;
     }
 
     /* services */
@@ -180,7 +180,7 @@
 
     /* === Home Hero */
     #home-hero {
-        height: 90vh;
+        min-height: 100vh;
     }
 }
 
@@ -189,7 +189,7 @@
 
     /* === Home Hero */
     #home-hero {
-        height: 40vh;
+        min-height: 100vh;
     }
 
     .project-desc {
@@ -201,7 +201,7 @@
 
     /* === Home Hero */
     #home-hero {
-        height: 45vh;
+        min-height: 100vh;
     }
 
     .project-desc {
@@ -217,7 +217,7 @@
 
     /* === Home Hero */
     #home-hero {
-        max-height: 70vh;
+        min-height: 100vh;
     }
 
     /* project */
