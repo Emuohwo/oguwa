@@ -147,6 +147,7 @@ header {
     background: -webkit-linear-gradient(45deg, #0553a159 60%, rgba(228, 233, 253, 0) 40%), url(home-hero3.jpg) center no-repeat fixed;
     background: linear-gradient(45deg, #0553a159 60%, rgba(228, 233, 253, 0) 40%), url(home-hero3.jpg) center no-repeat fixed;
     background-size: cover;
+    background-color: #0553a1;
     height: 100vh;
 }
 
