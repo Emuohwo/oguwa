@@ -75,7 +75,7 @@
 
 @media screen and (max-width: 683px) {
 
-    #home-hero {height: 85vh;}
+    #home-hero {min-height: 100vh;}
 
     html, body {font-size: 16px;}
     .project-desc {min-height: 360px;}
@@ -122,18 +122,18 @@
     html,
     body{font-size: 12px;}
     section{padding: 50% auto 4%;}
-    #home-hero {height: 65vh;}
+    #home-hero {min-height: 100vh;}
 
     /* .project-desc {min-height: 450px;} */
 }
 
 
 @media screen and (max-width: 244px){
-    #home-hero {min-height: 90vh;}
+    #home-hero {min-height: 100vh;}
     h1 {font-size: 300%;}
     .project-desc {min-height: 270px;}
 }
 
 @media screen and (max-width: 241px) {
-    #home-hero{height: 52vh;}
+    #home-hero{min-height: 100vh;}
 }
